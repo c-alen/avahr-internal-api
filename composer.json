@@ -12,5 +12,10 @@
     "psr-4": {
       "Avahr\\InternalApi\\": "src/"
     }
-  }
+  },
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/c-alen/avahr-internal-api.git" }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
