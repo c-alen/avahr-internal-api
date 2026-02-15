@@ -40,6 +40,9 @@ $score = $client->jobsScore(
 $candidate = $client->candidatesScore('Resume text...', 'Job description...');
 ```
 
+## Examples
+See `examples/README.md` for runnable scripts for every endpoint.
+
 ## Notes
 - Uses `ext-curl`.
 - Throws `Avahr\\InternalApi\\Exceptions\\ApiException` on API errors.
